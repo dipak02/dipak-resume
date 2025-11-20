@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
 
    
-    <div id="navbar" className="bg-green-300 rounded-3xl p-6 shadow-lg sticky  left-0 w-full z-50 space-y-6">
+    <div id="navbar" className="bg-[var(--primary-color)] rounded-3xl p-6 shadow-lg sticky  left-0 w-full z-50 space-y-6">
     
       <div className="flex items-center justify-between">
         {/* <!-- Logo and Back Button --> */}

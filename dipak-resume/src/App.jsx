@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-     <div id="home" class="w-full mx-auto p-6 space-y-6">
+     <div id="home" class="w-full mx-auto p-6 space-y-6 bg-[var(--main-bg-color)]">
       <Navbar />
       <Main/>
       <Tools/>

@@ -50,11 +50,11 @@ export default function Testimonials() {
   
   return (
   <>
-  <div className="bg-[var(--primary-color)]">
-  <div className="text-center  bg-[var(--primary-color)]">
+  <div className="bg-[var(--main-bg-color)]">
+  <div className="text-center  bg-[var(--main-bg-color)]">
     <h1 className=" text-white text-4xl font-bold ">TESTIMONIALS</h1>
-      <p className="text-black-600 font-bold text-2xl mt-4 ">What my subscribers say!</p></div>
-    <section id="testimonials" className="text-left py-5 px-4 lg:px-8 bg-[var(--primary-color)] " >
+      <p className="text-gray-400 font-bold text-2xl mt-4 ">What my subscribers say!</p></div>
+    <section id="testimonials" className="text-left py-5 px-4 lg:px-8 bg-[var(--main-bg-color)] " >
       {/* Heading */}
       
 
@@ -74,7 +74,7 @@ export default function Testimonials() {
 {testimonialsData.map((data,index) =>
   <SwiperSlide  key={index}>
      
-      <div className="max-w-sm w-full mx-auto bg-[var(--com-color)] p-4 rounded-md shadow">
+      <div className="max-w-sm w-full mx-auto bg-[var(--primary-color)] hover:bg-gray-200 p-4 rounded-md shadow">
         <div className="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
           {/* Profile Image */}
           <div className="sm:order-last sm:shrink-0">

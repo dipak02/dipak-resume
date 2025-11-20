@@ -38,11 +38,11 @@ export default function Project (){
     <>
     <div id="projects" class="text-left">
         <h1 class="text-blue-600 font-bold mb-1">PROJECTS</h1> 
-        <p class="text-3xl font-bold mt-0">My Recent Projects</p> 
+        <p class="text-3xl text-white font-bold mt-0">My Recent Projects</p> 
     </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {projectData.map((data,index)=>
-              <article key={index} class="overflow-hidden  rounded-lg border border-gray-100 bg-green shadow-xs">
+              <article key={index} class="overflow-hidden  rounded-lg  bg-[var(--primary-color)] hover:bg-gray-200 shadow-xs">
               <img
                 alt=""
                 src={data.img}class="h-56 w-full object-cover"
@@ -63,7 +63,7 @@ export default function Project (){
                   </h3>
                 </a>
 
-                <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
                   {data.detail}
                   
                 </p>

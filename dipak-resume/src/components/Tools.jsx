@@ -6,7 +6,7 @@ export default function Tools() {
     <>
        <div className="text-center">
       
-          <p className="text-3xl font-bold mt-0">Tools I Use</p> 
+          <p className="text-3xl text-white font-bold mt-0">Tools I Use</p> 
   </div>
   <div className="flex justify-around  p-4">
             {/* <!--visual studio code ICON--> */}

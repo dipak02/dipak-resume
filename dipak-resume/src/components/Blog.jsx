@@ -35,9 +35,10 @@ const blogData=[
 export default function Blog(){
   return (
     <>
-        <div id="blog" class="text-left">
+ 
+        <div id="blog" class="text-left ">
         <h1 class="text-blue-600 font-bold mb-1">BLOG</h1> 
-        <p class="text-3xl font-bold mt-0">My Blog Posts</p> 
+        <p class="text-3xl text-white font-bold mt-0">My Blog Posts</p> 
     </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
        

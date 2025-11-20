@@ -11,9 +11,9 @@ export default function Faqs(){
 <div class="space-y-4">
    <div class="space-y-4">
       {/* <!-- FAQ Item --> */}
-      <div class="border border-gray-200 bg-gray-50 rounded-xl shadow-sm">
+      <div class="border border-gray-200 bg-[var(--primary-color)] rounded-xl shadow-sm">
         <button 
-          class="faq-btn w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-100"
+          class="faq-btn w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-200"
           onclick="toggleFAQ(this)">
           <span>What services do you provide?</span>
           <span class="icon text-red-500 text-xl font-bold">+</span>
@@ -25,9 +25,9 @@ export default function Faqs(){
       </div>
 
       {/* <!-- FAQ Item --> */}
-      <div class="border border-gray-200 bg-gray-50 rounded-xl shadow-sm">
+      <div class="border border-gray-200 bg-[var(--primary-color)] rounded-xl shadow-sm">
         <button 
-          class="faq-btn w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-100"
+          class="faq-btn w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-200"
           onclick="toggleFAQ(this)">
           <span>How can I contact you?</span>
           <span class="icon text-red-500 text-xl font-bold">+</span>
@@ -38,9 +38,9 @@ export default function Faqs(){
       </div>
 
       {/* <!-- FAQ Item --> */}
-      <div class="border border-gray-200 bg-gray-50 rounded-xl shadow-sm">
+      <div class="border border-gray-200 bg-[var(--primary-color)] rounded-xl shadow-sm">
         <button 
-          class="faq-btn w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-100"
+          class="faq-btn w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-200"
           onclick="toggleFAQ(this)">
           <span>Do you offer project customization?</span>
           <span class="icon text-red-500 text-xl font-bold">+</span>
@@ -51,14 +51,14 @@ export default function Faqs(){
       </div>
 
       {/* <!-- FAQ Item --> */}
-      <div class="border border-gray-200 bg-gray-50 rounded-xl shadow-sm">
+      <div class="border border-gray-200 bg-[var(--primary-color)] rounded-xl shadow-sm">
         <button 
           class="faq-btn w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-white"
           onclick="toggleFAQ(this)">
           <span>Do you provide ongoing support?</span>
           <span class="icon text-red-500 text-xl font-bold">+</span>
         </button>
-        <div class="faq-content p-4 pt-0 hidden bg-gray-50 text-gray-600">
+        <div class="faq-content p-4 pt-0 hidden bg-[var(--primary-color)] text-gray-600">
           Absolutely! We provide maintenance, updates, and bug fixes after project delivery.
         </div>
       </div>
@@ -66,13 +66,13 @@ export default function Faqs(){
 
   
 </div>
-<form class="bg-sage-200 p-6  rounded-2xl shadow-md space-y-4">
+<form class="bg-[var(--primary-color)] p-6 hover:bg-gray-200  rounded-2xl shadow-md space-y-4">
        
 
         <div>
           <label class="block text-2xl px-8 text-center font-medium mb-4">If you have any question or enquiry about anything feel free to ask.</label>
           <textarea rows="2" placeholder="Your Questions Here....."
-                    class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-400 outline-none" required></textarea>
+                    class="w-full border border-gray-400 rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-400 outline-none" required></textarea>
         </div>
 
         <button type="submit"

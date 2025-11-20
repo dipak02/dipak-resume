@@ -4,14 +4,14 @@ import logo from '../assets/images/logo1.png';
 export default function Footer() {
   return(
         <footer>
-  <div class="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
+  <div class="mx-auto bg-[var(--primary-color)]   px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
     <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
         <div class="flex justify-center text-teal-600 sm:justify-start">
           <a href="#home" ><img src={logo} alt="" class="h-10 w-auto" /></a>
         </div>
 
-        <p class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
+        <p class="mt-6 max-w-md text-center leading-relaxed text-gray-700 sm:max-w-xs sm:text-left">
           I craft modern, responsive, and user-friendly websites that combine clean design with solid structure — helping businesses and individuals from every sector build a strong digital presence.
       
         </p>
@@ -280,7 +280,7 @@ export default function Footer() {
           </a>
         </p>
 
-        <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2025 DIPAK KUMAR SHAH</p>
+        <p class="mt-4 text-sm text-indigo-600 sm:order-first sm:mt-0">&copy; 2025 DIPAK KUMAR SHAH</p>
       </div>
     </div>
   </div>
